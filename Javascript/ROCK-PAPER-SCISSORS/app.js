@@ -27,16 +27,16 @@ function result() {
     if (userChoice == computerChoiceDisplay.innerHTML) {
         return "tie"
     } else if (userChoiceDisplay.innerHTML == "rock" && computerChoiceDisplay.innerHTML == "scissors") {
-        return "Computer LOSES"
+        return "WINNER"
     } else if (userChoiceDisplay.innerHTML == "paper" && computerChoiceDisplay.innerHTML == "rock") {
-        return "Computer LOSES"
+        return "WINNER"
     } else if (userChoiceDisplay.innerHTML == "scissors" && computerChoiceDisplay.innerHTML == "paper") {
-        return "Computer LOSES"
+        return "WINNER"
     } else if (userChoiceDisplay.innerHTML == "rock" && computerChoiceDisplay.innerHTML == "paper") {
-        return "You LOSE"
+        return "LOSER"
     } else if (userChoiceDisplay.innerHTML == "paper" && computerChoiceDisplay.innerHTML == "scissors") {
-        return "You LOSE"
+        return "LOSER"
     } else if (userChoiceDisplay.innerHTML == "scissors" && computerChoiceDisplay.innerHTML == "rock") {
-        return "You LOSE"
+        return "LOSER"
     }
 }
